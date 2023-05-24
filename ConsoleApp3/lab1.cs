@@ -14,8 +14,8 @@ namespace ConsoleApp3
             {
                 throw new ArgumentNullException(nameof(args));
             }
-            Console.BackgroundColor = ConsoleColor.Green;
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Black;
 
             Console.Clear();
             Console.WriteLine("Hello this is CSharp Class");
