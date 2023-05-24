@@ -14,11 +14,20 @@ namespace ConsoleApp3
             {
                 throw new ArgumentNullException(nameof(args));
             }
-            Console.BackgroundColor = ConsoleColor.White;
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.BackgroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.White;
 
             Console.Clear();
-            Console.WriteLine("Suraj");
+            Console.WriteLine("Hello this is CSharp Class");
+            //WriteLine Print the line in nextline.
+            Console.Write("Lets Learn Something New.");
+            Console.Write("Lets Learn Something old");
+            Console.WriteLine();
+
+            //Read Line input by user
+            Console.Write("Write Something: ");
+            Console.WriteLine(Console.ReadLine());
+      
         } 
     }
 }
