@@ -30,6 +30,16 @@ namespace InheritanceLab
             MultipleInheritance fruit = new MultipleInheritance();
             fruit.color();
             fruit.taste();
+
+            //accessing the inherited members in parent class from child class
+            ChildClass child = new ChildClass();
+            child.getIdFromParentClass();
+
+            //accessing the inherited members in parent class from another child class
+            AnotherChildClass child2 = new AnotherChildClass();
+            child2.getIdFromParentClass();
+
+
         }
     }
     class LabObject
