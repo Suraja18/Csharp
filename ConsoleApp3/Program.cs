@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp3;
+using System;
 namespace InheritanceLab
 {
     class Program
@@ -12,6 +13,23 @@ namespace InheritanceLab
             newLab2.ShowDetails();
             LabObject newLab3 = new LabObject();
             newLab3.ShowDetails();
+
+            StopWatch sw1 = new StopWatch();
+            StopWatch sw2 = new StopWatch();
+            Console.WriteLine(StopWatch.NoOfInstances);
+
+            StopWatch sw3 = new StopWatch();
+            StopWatch sw4 = new StopWatch();
+            Console.WriteLine(StopWatch.NoOfInstances);
+
+            B operation = new B();
+            operation.add();
+            operation.sub();
+            operation.multiplication();
+
+            MultipleInheritance fruit = new MultipleInheritance();
+            fruit.color();
+            fruit.taste();
         }
     }
     class LabObject
