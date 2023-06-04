@@ -39,6 +39,16 @@ namespace InheritanceLab
             AnotherChildClass child2 = new AnotherChildClass();
             child2.getIdFromParentClass();
 
+            //Polymorphismn
+            Animal animal = new Animal();
+            Animal pig = new Pig();
+            Animal dog = new Dog();
+
+            animal.animalSound();
+            pig.animalSound();
+            dog.animalSound();
+
+
 
         }
     }
